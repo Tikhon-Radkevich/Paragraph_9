@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Параграф 9</title>
+</head>
+<body style="background: #54b7c4">
+    <div style="width: 80%; margin: auto;">
+        <div style="background-image: url('9.2.jpeg')">
+            <h1 style="color: azure;">Использование фонового изображения (Упр 9.2)</h1>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+        <h1>Стоит учитывать то, что по умолчанию, если картинка будет меньше страницы,
+             то она размножится на весь экран:</h1>
+        <div style="background-image: url('little9.2.png')">
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+        <div style="background-color: rgb(4, 84, 121);">
+            <h1 style="color: azure;">Добавление изображений и свойст к ним (Упр 9.3-9.7)</h1>
+            <p><h2 style="color: azure;">Картинка без дополнительных свойств</h2></p>
+            <img src="narach.jpg" alt=""> 
+            <br />
+            <hr>
+            <p><h2 style="color: azure;">Ширина 300 пикселя (упр 9.3):</h2></p>
+            <img style="width: 300px;" src="narach.jpg" alt="">
+            <br />
+            <hr>
+            <p><h2 style="color: azure;">Ширина 80%:</h2></p>
+            <img style="width: 80%;" src="narach.jpg" alt="">
+            <br />
+            <hr>
+            <p><h2 style="color: azure;">Отступы со всех сторон 25 пикселей (упр 9.4):</h2></p>
+            <img style="padding: 25px;" src="narach.jpg" alt="">
+            <br />
+            <hr>
+            <p><h1 style="color: azure;">Выравнивание изображения по отношению к тексту (упр 9.5):</h1></p>
+            <img style="float: left; padding: 5px; width: 300px;" src="narach.jpg" alt="">
+            <h1 style="color: azure;">Картинка слева от текста.</h1>
+
+            <div  style="clear: both;">
+                <hr>
+                <img style="float: right; padding: 5px; width: 300px;" src="narach.jpg" alt="">
+                <h1 style="color: azure;">Картинка справа от текста.</h1>
+            <br />
+            </div>
+            <div style="clear: both;">
+                <hr>
+                <h1 style="color: azure;">Вместо не найденой картинки отображение текста:</h1>
+                <img src="ozero.jpg" alt='Нарач'>
+                <br /><br />
+            </div>
+            <hr>
+            <p><h2 style="color: azure;">Изображиние в качестве ссылки:</h2></p>
+            <a href="https://ru.wikipedia.org/wiki/Нарочь_(озеро)">
+                <img style="width: 300px;" src="narach.jpg" alt="">
+            </a>
+        </div>
+        <div style="background-color: rgb(147, 240, 167);">
+            <h1 style="color: black;">Звук и видео на веб-страницах (Упр 9.8-9.10)</h1>
+            <br />
+            <h1>Добавление звука:</h1>
+            <audio controls width = '190px' src="song9.8.mp3">Тег аудио не поддерживается вашим браузером</audio>
+            <br /><br />
+            <hr>
+            <h1>Добавление видео:</h1>
+            <video controls width = '720px' src="video9.9.mp4"></video>
+            <br />
+            <hr>
+            <h1>Видео с ютуба:</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fkG-kb7PzHY"
+             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+             clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+    </div>  
+
+</body>
+</html>
